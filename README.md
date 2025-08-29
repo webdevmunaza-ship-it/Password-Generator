@@ -1,12 +1,48 @@
-# React + Vite
+#React Password Generator
+A simple Password Generator built with React + Vite + Tailwind CSS.
+It allows you to generate random passwords with customizable length, numbers, and special characters. You can also copy the generated password to your clipboard with one click.
+#Features
+Set password length (6–100)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Option to include numbers
+2. Option to include special characters
+3.One-click copy to clipboard
+4. Styled with Tailwind CSS
+5.Built with React + Vite (fast dev experience)
+ 
+ #Tech Stack
 
-Currently, two official plugins are available:
+*React (with hooks & functional components)
+*Vite (for fast development & HMR)
+*Tailwind CSS (for modern UI styling)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#installation & Setup
+#Clone the repository
+1.git clone https://github.com/your-username/password-generator.git
+cd password-generator
 
-## Expanding the ESLint configuration
+2.Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3.Start development server
+npm run dev
+
+5.Build for production
+npm run build
+
+📸 Screenshot
+A simple **Password Generator** built with **React + Vite + Tailwind CSS**.  
+<img width="814" height="929" alt="password" src="https://github.com/user-attachments/assets/e0963372-0eee-4178-88fa-27263ff56219" />
+
+
+
+# Deployment
+You can easily deploy this project on Vercel / Netlify / GitHub Pages.
+
+
+
+
+
+
+
+
